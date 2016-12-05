@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Functional Algebraic Equation Evaluator</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <link href="fonts/glyphicons-halflings-regular.ttf" rel="stylesheet" type="application/octet-stream" />
+    <script src="Scripts/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="card card-container  col-sm-8  col-sm-offset-2">
+
+            <h3 >Lab 9</h3>
+            <h4>Syed Ali Ariz<br>BCCS4C</h4>
+
+            
+            <br />
+            <form class="form-signin" onsubmit="return false">
+                <input type="text" id="equation" class="form-control" placeholder="Write Equation To Solve" required autofocus><br><br>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" id="evaluate">Solve the equation</button>
+            </form><!-- /form -->
+            <br />
+            <h4 >Result:</h4>
+            <h2 id="result" style="text-align:left"></h2>
+           
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+
+    <script src="Scripts/algebra-0.2.5.min.js"></script>
+    <script src="Soultion.js"></script>
+
+</body>
+</html>
